@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import AuthContent from '../../components/auth/AuthContent';
 import ErrorOverlay from '../../components/ui/ErrorOverlay';
 import LoadingOverlay from '../../components/ui/LoadingOverlay';
-import { loginUserApi } from '../../services/authApi';
+import { loginUserApi } from '../../screens/services/authApi';
 import { useAuth } from '../../context/AuthContext';
 
 const LoginScreen = () => {

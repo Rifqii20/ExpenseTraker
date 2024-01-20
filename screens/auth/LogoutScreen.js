@@ -2,7 +2,7 @@ import React, { useEffect, useLayoutEffect, useState } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { useAuth } from '../../context/AuthContext';
 import ButtonStyled from '../../components/ui/ButtonStyled';
-import { logoutUserApi } from '../../services/authApi';
+import { logoutUserApi } from '../../screens/services/authApi';
 
 const LogoutScreen = ({ navigation }) => {
   const { logout, token } = useAuth();

@@ -13,7 +13,7 @@ import ManageExpense from './screens/expenses/ManageExpense';
 import Ionicons from '@expo/vector-icons/Ionicons';
 import IconButton from './components/ui/IconButton';
 import Colors from './contants/colors';
-import { getExpensesApi } from './services/expensesApi';
+import { getExpensesApi } from './screens/services/expensesApi';
 import LoadingOverlay from './components/ui/LoadingOverlay';
 import ErrorOverlay from './components/ui/ErrorOverlay';
 import LoginScreen from './screens/auth/LoginScreen';

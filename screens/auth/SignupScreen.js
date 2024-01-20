@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import AuthContent from '../../components/auth/AuthContent';
-import { createUserApi } from '../../services/authApi';
+import { createUserApi } from '../../screens/services/authApi';
 import LoadingOverlay from '../../components/ui/LoadingOverlay';
 import ErrorOverlay from '../../components/ui/ErrorOverlay';
 import { useNavigation } from '@react-navigation/native';

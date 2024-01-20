@@ -18,7 +18,7 @@ import {
   addExpenseApi,
   deleteExpenseApi,
   updateExpenseApi,
-} from '../../services/expensesApi';
+} from '../../screens/services/expensesApi';
 import LoadingOverlay from '../../components/ui/LoadingOverlay';
 import ErrorOverlay from '../../components/ui/ErrorOverlay';
 import { useAuth } from '../../context/AuthContext';
