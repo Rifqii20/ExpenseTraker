@@ -8,7 +8,7 @@ const ExpenseSummary = ({ title, expenses }) => {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>{title}</Text>
-      <Text>{getTotalExpenses(expenses)} €</Text>
+      <Text> Rp {getTotalExpenses(expenses)}</Text>
     </View>
   );
 };

@@ -21,7 +21,7 @@ const ExpenseItem = ({ description, date, amount, id }) => {
           <Text style={styles.description}>{description}</Text>
           <Text style={styles.date}>{dateFormatted(date)}</Text>
         </View>
-        <Text style={styles.amount}>{Number(amount).toFixed(2)} €</Text>
+        <Text style={styles.amount}> Rp {Number(amount).toFixed(2)} </Text>
       </View>
     </Pressable>
   );
